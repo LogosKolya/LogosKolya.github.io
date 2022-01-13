@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "First",
+      "text": "It is first blog",
+      "author": "Kolya"
+    },
+    {
+      "title": "Second",
+      "text": "It is my second blog. He is working again!",
+      "author": "Kolya",
+      "id": 2
+    },
+    {
+      "title": "Fifth",
+      "text": "Last blog work!",
+      "author": "Kolya",
+      "id": 5
+    },
+    {
+      "title": "LastBlog",
+      "text": "It is a last blog!",
+      "author": "Kolya",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<div class="contain">
+  <div class="post-card" *ngFor="let post of userPosts; index as i">
+    <div class="img"></div>
+    <p class="author">{{post.author | uppercase}}</p>
+    <h4>{{post.title}}</h4>
+    <p class="text">{{post.text | slice:0:30 }}
+      <span *ngIf="post.text.length > 30">...</span></p>
+  </div>
+</div>
